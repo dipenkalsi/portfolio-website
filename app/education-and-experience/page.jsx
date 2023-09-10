@@ -14,7 +14,7 @@ const page = () => {
     setTab('experience')
   }
   return (
-    <div>
+    <div className='pb-6'>
       <Header/>
       <div className='flex items-center justify-center my-12'>
         <div onClick={handleToggle1} className={tab=='education'?'px-12 py-2 border border-black md:text-xl font-display cursor-pointer transition bg-black text-white' : 'px-12 py-2 border border-black md:text-xl font-display cursor-pointer hover:bg-gray-300 transition'}>

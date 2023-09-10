@@ -9,7 +9,7 @@ import {SiCodeforces} from 'react-icons/si'
 const Socials = () => {
   return (
     <div className='flex items-center justify-center flex-col'>
-      <p className='text-3xl underline underline-offset-4'>Check out my work on</p>
+      <p className='text-3xl'>Check out my work on</p>
       <div className='flex items-center justify-evenly mt-7 space-x-8 flex-wrap'>
         <div className='flex flex-col items-center justify-center'>
             <Link href={'https://github.com/dipenkalsi'} target='_blank' className='flex flex-col items-center justify-center hover:text-sky-800'>
