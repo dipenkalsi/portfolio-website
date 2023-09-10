@@ -18,16 +18,14 @@ const Education = () => {
 			</div>
 			<div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
 				<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-700">
-					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-black">
-						<h3 className="text-xl font-semibold tracki">CBSE Class X</h3>
-						<p className="text-xs tracki uppercase text-gray-600">Gitarattan Jindal Public School</p>
-						<p className="mt-3">Completed: March, 2019</p>
-						<p className="">Percentage: 96.2%</p>
-                        <Link className='text-sky-800 flex items-center justify-center space-x-2 hover:underline underline-offset-4' href='https://drive.google.com/file/d/1OV7lnhjWbSPPBaH4b7HU9wC68RHDFy6R/view?usp=sharing' target='_blank'>
-                            <p>Marksheet</p>
-                            <BiLinkExternal/>
-                        </Link>
+				<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-black">
+						<h3 className="text-xl font-semibold tracki">B-Tech in Computer Science and Technology</h3>
+						<p className="text-xs tracki uppercase text-gray-600">Maharaja Agrasen Institute of Technology</p>
+						<p className="mt-3">Currently pursuing</p>
+						<p className="">Expected grad. date: September 2025</p>
+						<p className="">GPA: 9.3</p>
 					</div>
+					
 					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-black">
 						<h3 className="text-xl font-semibold tracki">CBSE Class XII</h3>
 						<p className="text-xs tracki uppercase text-gray-600">Gitarattan Jindal Public School</p>
@@ -40,11 +38,14 @@ const Education = () => {
                         </Link>
 					</div>
 					<div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-black">
-						<h3 className="text-xl font-semibold tracki">B-Tech in Computer Science and Technology</h3>
-						<p className="text-xs tracki uppercase text-gray-600">Maharaja Agrasen Institute of Technology</p>
-						<p className="mt-3">Currently pursuing</p>
-						<p className="">Expected grad. date: September 2025</p>
-						<p className="">GPA: 9.3</p>
+						<h3 className="text-xl font-semibold tracki">CBSE Class X</h3>
+						<p className="text-xs tracki uppercase text-gray-600">Gitarattan Jindal Public School</p>
+						<p className="mt-3">Completed: March, 2019</p>
+						<p className="">Percentage: 96.2%</p>
+                        <Link className='text-sky-800 flex items-center justify-center space-x-2 hover:underline underline-offset-4' href='https://drive.google.com/file/d/1OV7lnhjWbSPPBaH4b7HU9wC68RHDFy6R/view?usp=sharing' target='_blank'>
+                            <p>Marksheet</p>
+                            <BiLinkExternal/>
+                        </Link>
 					</div>
 				</div>
 			</div>

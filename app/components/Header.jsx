@@ -6,6 +6,7 @@ import {MdWork} from 'react-icons/md';
 import {BsCode} from 'react-icons/bs';
 import Link from 'next/link';
 import {BiSolidMessageDetail} from 'react-icons/bi';
+import {PiCertificateFill} from 'react-icons/pi';
 import { usePathname } from 'next/navigation'
 const Header = () => {
     const pathName = usePathname();
@@ -32,6 +33,11 @@ const Header = () => {
             href: '/projects'
         },
         {
+            label:'Achievements',
+            icon: PiCertificateFill,
+            href: '/achievements-and-certifications'
+        },
+        {
             label:'Contact Me',
             icon: BiSolidMessageDetail,
             href: '/contact'
@@ -42,7 +48,7 @@ const Header = () => {
     <div className='w-full font-semibold text-lg space-x-8 flex items-center justify-center p-3'>
       {items.map((item)=>(
         <div key={item.href}>
-        <div className={item.href===pathName?`underline hidden md:block hover:underline transition cursor-pointer underline-offset-4`:`hidden md:block hover:underline transition cursor-pointer underline-offset-4`}>
+        <div className={item.href===pathName?` text-red-600 underline hidden md:block transition cursor-pointer underline-offset-4`:`hidden md:block hover:underline transition cursor-pointer underline-offset-4`}>
             <Link href={item.href}>
             <p>{item.label}</p>
             </Link>
